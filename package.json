@@ -4,7 +4,7 @@
     "name": "Bryan Mendoza"
   },
   "license": "MIT",
-  "name": "chat-mvp",
+  "name": "secret-chat",
   "version": "1.0.0",
   "scripts": {
     "build": "next build",
