@@ -5,5 +5,15 @@
   },
   "license": "MIT",
   "name": "chat-mvp",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "scripts": {
+    "build": "next build",
+    "dev": "run-p start:dev generate",
+    "lint": "next lint",
+    "start": "next start",
+    "start:dev": "next dev",
+    "generate": "run-s generate:*",
+    "generate:prisma": "prisma generate",
+    "generate:nexus": "ts-node-dev --respawn -P tsconfig.node.json -r tsconfig-paths/register src/pages/api/graphql.ts"
+  }
 }
