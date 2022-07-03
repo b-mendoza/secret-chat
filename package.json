@@ -1,0 +1,9 @@
+{
+  "author": {
+    "email": "bmendoza.dev@hotmail.com",
+    "name": "Bryan Mendoza"
+  },
+  "license": "MIT",
+  "name": "chat-mvp",
+  "version": "1.0.0"
+}
