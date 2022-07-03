@@ -10,7 +10,4 @@ export default trpcNext.createNextApiHandler({
       console.error('Something Went Wrong', error);
     }
   },
-  batching: {
-    enabled: true,
-  },
 });
